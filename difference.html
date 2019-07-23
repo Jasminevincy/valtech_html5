@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <script>
+        function ready() {
+            alert('DOM is ready');
+        }
+
+        document.addEventListener("DOMContentLoaded", ready);
+       
+       
+       
+        function A(){
+            alret('window is ready');
+            
+        }
+
+        window.addEventListener("load", A);
+
+        
+    </script>
+</head>
+
+<body onload=A()>
+    <img id="img" src="monitor.jpg">
+
+</body>
+
+</html>
